@@ -40,8 +40,8 @@ https://automationexercise.com/
 - README.md
 
 ## Team Members
-- Pranay Gangadhar Bhat
-- Mohit Chouhan
+- Pranay Gangadhar Bhat - 20241ISE0042
+- Mohit Chouhan - 20241ISE0035
 
 ## Course Details
 Software Testing & Quality Assurance
