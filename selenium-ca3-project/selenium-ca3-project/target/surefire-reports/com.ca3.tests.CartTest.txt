@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: com.ca3.tests.CartTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 45.72 s <<< FAILURE! -- in com.ca3.tests.CartTest
+com.ca3.tests.CartTest.productCanBeAddedToCart -- Time elapsed: 45.70 s <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //*[normalize-space()='All Products'] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 157.0.8103.79, chrome: {chromedriverVersion: 157.0.8103.78 (4b3d0dabb825..., userDataDir: C:\Users\MOHITC~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53273}, goog:processID: 33176, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53273/devtoo..., se:cdpVersion: 157.0.8103.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 987fbd58211560f83eb7b197f59970c9
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.ca3.pages.BasePage.visible(BasePage.java:21)
+	at com.ca3.pages.ProductsPage.isDisplayed(ProductsPage.java:41)
+	at com.ca3.tests.CartTest.productCanBeAddedToCart(CartTest.java:13)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
